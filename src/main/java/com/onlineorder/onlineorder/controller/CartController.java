@@ -13,8 +13,7 @@ public class CartController {
 
     @Autowired
     private CartService cartService;
-
-
+    
     @RequestMapping(value = "/cart", method = RequestMethod.GET)
     @ResponseBody
     public Cart getCart(){
